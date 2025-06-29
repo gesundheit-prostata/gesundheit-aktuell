@@ -1,0 +1,153 @@
+/* style.css (Добавлены стили для H1 и мета-даты) */
+
+body {
+  background-color: #f7f7f9;
+  font-family: system-ui, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Шапка (header) */
+header {
+  background-color: #ffffff;
+  padding: 32px 24px 16px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2196f3;
+  letter-spacing: 1px;
+}
+
+.logo-part1 {
+  color: #2196f3;
+}
+
+.logo-part2 {
+  color: #4caf50;
+}
+
+.site-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* H1 заголовок обзора */
+.overview-title {
+  font-size: 2rem;
+  color: #1a4caf;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* Метка даты публикации */
+.meta {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Вводный абзац */
+.intro-text {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Заголовок раздела обзора */
+.section-title {
+  font-size: 1.6rem;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #1a4caf;
+  text-align: center;
+}
+
+/* Список статей */
+.article-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-list li {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.article-list li:last-child {
+  border-bottom: none;
+}
+
+.article-list a {
+  font-size: 1rem;
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.article-list a:hover {
+  color: #1a4caf;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+footer a {
+  color: #2196f3;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+  header {
+    padding: 24px 16px 12px;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .overview-title {
+    font-size: 1.75rem;
+  }
+  .meta {
+    font-size: 0.85rem;
+  }
+  .intro-text {
+    font-size: 0.95rem;
+  }
+  .section-title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  .article-list a {
+    font-size: 0.95rem;
+  }
+}
