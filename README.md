@@ -18,7 +18,7 @@ Dieser Blog entstand aus der praktischen Erfahrung im Umgang mit Fragen, die vie
 ---
 
 **🔗 Website:**  
-👉 [Zum Blog](https://gesundheit-prostata.github.io/gesundheit-aktuell/)
+👉 [Männergesundheit Blog](https://gesundheit-prostata.github.io/gesundheit-aktuell/)
 
 **📬 Kontakt:**  
 [jak00bw00lf@gmail.com](mailto:jak00bw00lf@gmail.com)
