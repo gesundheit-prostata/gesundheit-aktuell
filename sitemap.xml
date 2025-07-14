@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gesundheit-prostata.github.io/gesundheit-aktuell</loc>
-    <lastmod>2024-06-29</lastmod>
+    <loc>https://gesundheit-prostata.github.io/gesundheit-aktuell/index.html</loc>
   </url>
   <url>
     <loc>https://gesundheit-prostata.github.io/gesundheit-aktuell/ueber-den-blog.html</loc>
-    <lastmod>2024-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://gesundheit-prostata.github.io/gesundheit-aktuell/brennen-harnroehre-nach-urinieren.html</loc>
+  </url>
+  <url>
+    <loc>https://gesundheit-prostata.github.io/gesundheit-aktuell/haeufiger-harndrang-beckenboden-tipps.html</loc>
   </url>
 </urlset>
