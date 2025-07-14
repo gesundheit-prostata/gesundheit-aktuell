@@ -1,5 +1,3 @@
-/* style.css (Добавлены стили для H1 и мета-даты) */
-
 body {
   background-color: #f7f7f9;
   font-family: system-ui, Arial, sans-serif;
@@ -14,7 +12,7 @@ body {
   padding: 24px;
 }
 
-/* Шапка (header) */
+
 header {
   background-color: #ffffff;
   padding: 32px 24px 16px;
@@ -23,10 +21,9 @@ header {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #2196f3;
-  letter-spacing: 1px;
 }
 
 .logo-part1 {
@@ -43,7 +40,7 @@ header {
   margin-top: 8px;
 }
 
-/* H1 заголовок обзора */
+
 .overview-title {
   font-size: 2rem;
   color: #1a4caf;
@@ -52,7 +49,7 @@ header {
   text-align: center;
 }
 
-/* Метка даты публикации */
+
 .meta {
   font-size: 0.9rem;
   color: #777;
@@ -60,7 +57,7 @@ header {
   margin-bottom: 16px;
 }
 
-/* Вводный абзац */
+
 .intro-text {
   font-size: 1rem;
   color: #444;
@@ -69,7 +66,7 @@ header {
   text-align: center;
 }
 
-/* Заголовок раздела обзора */
+
 .section-title {
   font-size: 1.6rem;
   margin-top: 32px;
@@ -78,7 +75,7 @@ header {
   text-align: center;
 }
 
-/* Список статей */
+
 .article-list {
   list-style: none;
   padding: 0;
@@ -126,16 +123,17 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Адаптивность для мобильных устройств */
+
 @media (max-width: 600px) {
   header {
     padding: 24px 16px 12px;
   }
   .logo {
-    font-size: 2rem;
+    font-size: 2.2rem;
+	text-align: center;
   }
   .overview-title {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
   }
   .meta {
     font-size: 0.85rem;
@@ -150,4 +148,52 @@ footer a:hover {
   .article-list a {
     font-size: 0.95rem;
   }
+  h2 {
+	font-size: 1.2rem !important;  
+  }
+}
+
+h2 {
+  margin-top: 2.6rem;     
+  margin-bottom: 1.2rem;  
+  font-size: 1.5rem;     
+  line-height: 1.28;      
+  color: #2a7f37;         
+  font-weight: 700;       
+  letter-spacing: 0.01em; 
+  font-family: inherit;   
+  /* text-transform: uppercase; */ 
+  /* border-left: 4px solid #2196f3; */ 
+  /* padding-left: 0.5rem; */ 
+}
+
+
+.image-figure {
+  text-align: center;
+  margin: 2rem 0;            
+}
+
+.image-figure__img {
+  display: inline-block;     
+  max-width: 90%;            
+  width: 600px;              
+  height: auto;              
+  border-radius: 8px;      
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-figure__img:hover {
+  transform: translateY(-4px);  
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+
+.image-figure__caption {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  opacity: 0.9;
 }
